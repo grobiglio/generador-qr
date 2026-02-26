@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de QR | ingg.ar</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Generador de QR</h1>
+      <input
+        type="text"
+        id="text"
+        placeholder="Pegá tu link acá..."
+        oninput="generateQR()"
+      />
+      <div id="qrcode"></div>
+      <p class="footer">Herramienta simple para ingg.ar</p>
+    </div>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
