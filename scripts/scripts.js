@@ -1,5 +1,5 @@
 const qrcode = new QRCode(document.getElementById("qrcode"), {
-  text: "https://ingg.ar",
+  text: "https://ingg.ar/enlaces/",
   width: 200,
   height: 200,
   colorDark: "#000000",
